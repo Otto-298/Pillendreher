@@ -339,11 +339,12 @@ class Hardware(object):
                 self.pwm[i].stop
 
     def LED_Bar(self, mode):
-        a = mode
+        pass
         #Neopixel control
 
     def Sounds(self, status):
-        a = status
+        pass
+        #Sound control
 
         
 if __name__ == "__main__":
